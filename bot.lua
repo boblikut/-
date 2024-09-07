@@ -100,7 +100,7 @@ client:on('messageCreate', function(message)
 	if command == "!help" then
 		message.channel:send([[
 !add_avatars - add avatars
-!add_nicks   - add nicknames(Example: !add_nicks Mike, Nick. Jonny)
+!add_nicks   - add nicknames(Example: !add_nicks Mike, Nick, Jonny)
 !clear - clear nicknames and avatars table
 !show - start roulette
 		]])
